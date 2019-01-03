@@ -2,8 +2,16 @@
     "name": "websocket-example",
     "description": "Whiteboard example for websocket-node.",
     "version": "1.0.0",
+	"main": "server.js",
     "dependencies": {
         "async-limiter": "~1.0.0",
         "ws": "~6.1.2"
-    }
+    },
+	"engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node server.js",
+  }
 }
